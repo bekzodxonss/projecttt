@@ -1,0 +1,89 @@
+
+ 
+  // 1-masala
+for (int i =1; i<20; i++){
+  if(i%2 ==1){
+  print(i);
+  }
+
+}
+//2-masala
+  for (int a =1; a<20; a++ ){
+    if(a%5 ==0){
+      continue;
+    }
+    print(a);
+  }
+    var num = 20;
+    while(num >= 1){
+         print(num % 5 == 0);
+        num--;
+       
+    
+  }
+ 
+int b = 0;
+int a = 99;
+  for (int a = 1; a <=99; a++) {
+     b +=a;
+    
+  }
+  print(b ~/ a);
+
+// 4-masala
+for(int r = 100; r < 300; r++){
+  if(r % 11==0)
+  print(r);
+
+}
+
+6-chi dars
+List list =[33];
+list.addAll([12,23,34,45,]);
+List list2 =[33,34,23,67,33];
+for(int i = 0; i < list.length; i++){
+  if(list[i] == list2[i]){
+    print("List $i indexdagilar teng");
+  }
+}
+
+
+
+
+
+
+// List son = [23, 34, 45, 499, 99];
+// son.replaceRange(0, 2,[33, 445]);
+// print(son);
+
+// List son2 = [9, 5, "Empire", "Academmy"];
+// son2.removeWhere(
+//   (element) {
+//     bool isTrue = false;
+//     if(element % 2 ==0){
+//       isTrue = true;
+//     }
+//     return isTrue;
+//   },
+//  );
+//  print(son2);
+
+// List son1 = [23, 34, 45, 499, 99];
+// son1.remove(0);
+// print(son1);
+
+
+
+
+  //   List int = [1, 6, 8, 9, 36, 74, 75];
+  // print(int.last);
+
+  // List int = [1, 6, 8, 9, 36, 74, 75];
+  // print(int.length);
+
+  // List int = [1, 6, 8, 9, 36, 74, 75];
+  // print(int.isEmpty);
+
+  // List int = [1, 6, 8, 9, 36, 74, 75];
+  // print(int.reversed);
+
